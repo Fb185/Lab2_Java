@@ -1,4 +1,4 @@
 package exercicio1;
 
-public class Condutor {
+public class Condutor extends Carro {
 }
