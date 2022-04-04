@@ -1,22 +1,22 @@
 package exercicio1;
 
-public class Carro {
+public abstract class Carro implements CarroInterface {
     private String matricula;
     private int velocidadeAtual = 0;
     int velocidadeMaxima = 200;
     boolean ligado = false;
 
-    void ligar() {
+    public void ligar() {
         System.out.println("VROOOM");
         ligado = true;
     }
 
-    void desligar() {
+    public void desligar() {
         System.out.println("MMMmmmmm");
         ligado = false;
     }
 
-    void acelerar() {
+    public void acelerar() {
         if (ligado == true) {
             velocidadeAtual += 10;
             if (velocidadeAtual > velocidadeMaxima) {
@@ -29,7 +29,7 @@ public class Carro {
         }
     }
 
-    void travar(int intensidadeTravagem) {
+    public void travar(int intensidadeTravagem) {
 
         if (ligado == true) {
 
@@ -73,7 +73,8 @@ public class Carro {
         return false;
     }
 
-    public void buzinar() {
-        System.out.println("Buzina do carro");
-    }
+    public abstract void buzinar();
+    // este metodo pode estar abstrato porque tem as suas implementacoes feitas nas
+    // subclasses
+
 }
