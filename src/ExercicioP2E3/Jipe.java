@@ -1,4 +1,6 @@
-package exercicio1;
+package ExercicioP2E3;
+
+import exercicio1.Carro;
 
 public class Jipe extends Carro {
     public void ligarTracao4x4() {

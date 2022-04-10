@@ -1,4 +1,6 @@
-package exercicio1;
+package ExercicioP2E3;
+
+import exercicio1.Carro;
 
 public class Condutor extends Carro {
     private String nome;

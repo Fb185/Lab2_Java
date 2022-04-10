@@ -1,4 +1,6 @@
-package exercicio1;
+package ExercicioP2E3;
+
+import exercicio1.Carro;
 
 public class Citadino extends Carro {
     public void ligarACManual() {
@@ -7,8 +9,8 @@ public class Citadino extends Carro {
 
     // override do metodo buzinar da classe carro
 
-    public void buzinar() {
-        System.out.println("Buzina do Citadino");
-        super.buzinar();
-    }
+    // public void buzinar() {
+    // System.out.println("Buzina do Citadino");
+    // super.buzinar();
+    // }
 }

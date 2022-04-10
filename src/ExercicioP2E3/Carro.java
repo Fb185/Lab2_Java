@@ -1,6 +1,6 @@
-package exercicio1;
+package ExercicioP2E3;
 
-public abstract class Carro {
+public abstract class Carro implements CarroInterface {
     private String matricula;
     private int velocidadeAtual = 0;
     int velocidadeMaxima = 200;
@@ -74,9 +74,9 @@ public abstract class Carro {
         return this.velocidadeAtual;
     }
 
-    public void buzinar() {
-        System.out.println("Buzina do Carro");
-    }
+    // public void buzinar() {
+    // System.out.println("Buzina do Carro");
+    // }
     // public abstract void buzinar();
     // este metodo pode estar abstrato porque tem as suas implementacoes feitas nas
     // subclasses

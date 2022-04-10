@@ -1,4 +1,8 @@
-package exercicio1;
+package ExercicioP2E3;
+
+import exercicio1.Citadino;
+import exercicio1.Familiar;
+import exercicio1.Jipe;
 
 import java.util.Scanner;
 
